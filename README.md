@@ -57,7 +57,7 @@ Commands CLI
 * fetch-all-leagues-for-team -> Fetch and save all leagues in which Manchester United has played at least one match
 * fetch-team -> Fetch and save Manchester United from api-football
 * fetch-team-stats -> Fetch and save  Manchester United stats for seasons: 2021, 2022, 2023
-* fetch-venues -> Fetch and save all venues from england
+* fetch-venues -> Fetch and save all venues from England
 * fetch-standings -> Fetch and save Manchester United standings for seasons:  2021, 2022, 2023
 * fetch-fixtures -> Fetch and save all Manchester United fixtures in the premier league for seasons: 2021, 2022, 2023
 * fetch-injuries -> Fetch and save all Manchester United injuries for seasons: 2021, 2022, 2023
