@@ -61,7 +61,7 @@ Commands CLI
 * fetch-standings -> Fetch and save Manchester United standings for seasons:  2021, 2022, 2023
 * fetch-fixtures -> Fetch and save all Manchester United fixtures in the premier league for seasons: 2021, 2022, 2023
 * fetch-injuries -> Fetch and save all Manchester United injuries for seasons: 2021, 2022, 2023
-* fetch-squad -> Fetch and save Manchester United squad for season 2025
+* fetch-squad -> Fetch and save Manchester United squad for season 2025/2026
 
 API Endpoints
 -
