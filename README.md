@@ -1,7 +1,6 @@
 TheRedDevilsData-API
 -
-TheRedDevilsData-API is a backend service dedicated to collecting, storing, and serving football data for Manchester United.
-It fetches historical data from the API-Football provider, processes and stores it in a PostgreSQL database, and exposes endpoints for easy consumption by any client (web, CLI, or future analytics tools).
+TheRedDevilsData-API is a backend service that collects, processes, and serves structured football data for Manchester United. It integrates with the API-Football provider, stores data in PostgreSQL, and exposes RESTful endpoints for easy access by web or analytics clients.
 
 Features
 -
