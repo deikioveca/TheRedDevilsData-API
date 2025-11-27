@@ -4,5 +4,5 @@ import "github.com/deikioveca/TheRedDevilsData/api/app"
 
 func main() {
 	app := app.NewApp()
-	app.Run(":8080")
+	app.Run()
 }

@@ -35,7 +35,7 @@ func NewApp() *App {
 }
 
 
-func (a *App) Run(addr string) {
+func (a *App) Run() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("GET /country", 			a.Handler.GetCountries)
@@ -67,7 +67,7 @@ func (a *App) Run(addr string) {
 
 	mux.HandleFunc("GET /squad", a.Handler.GetSquad)
 
-	if err := http.ListenAndServe(addr, mux); err != nil {
+	if err := http.ListenAndServe(":8080", mux); err != nil {
 		log.Fatalf("failed to start server: %v", err)
 	}
 }
